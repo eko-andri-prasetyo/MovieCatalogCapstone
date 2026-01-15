@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.dicoding.moviecatalog.favorite-merged_res-4:/layout_activity_favorite.xml.flat",
+        "source": "com.dicoding.moviecatalog.favorite-main-6:/layout/activity_favorite.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.favorite-merged_res-4:/layout_fragment_favorite.xml.flat",
+        "source": "com.dicoding.moviecatalog.favorite-main-6:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.favorite-merged_res-4:/layout_item_favorite.xml.flat",
+        "source": "com.dicoding.moviecatalog.favorite-main-6:/layout/item_favorite.xml"
+    }
+]

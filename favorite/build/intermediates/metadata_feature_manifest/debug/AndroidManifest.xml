@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    featureSplit="favorite"
+    package="com.dicoding.moviecatalog.favorite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="21" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:testOnly="true" >
+        <activity
+            android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
+            android:exported="false"
+            android:splitName="favorite" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/navigation_nav_graph.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/layout_activity_main.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/menu_menu_main.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/layout_activity_detail.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/layout_fragment_movie_list.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/fragment_movie_list.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/layout_item_movie.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-63:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

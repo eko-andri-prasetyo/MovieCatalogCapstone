@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+id action_favorite
+id action_search
+id btnFavorite
+id content
+id ivBackdrop
+id ivPoster
+id movieListFragment
+id nav_graph
+id nav_host_fragment
+id progressBar
+id rvMovies
+id swipeRefresh
+id toolbar
+id toolbarDetail
+id tvError
+id tvMeta
+id tvOverview
+id tvTitle
+layout activity_detail
+layout activity_main
+layout fragment_movie_list
+layout item_movie
+menu menu_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+string backdrop
+string detail
+string favorite
+string poster
+string search
+string search_hint
+style Theme.MovieCatalog

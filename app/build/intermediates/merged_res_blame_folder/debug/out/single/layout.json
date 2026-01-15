@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.dicoding.moviecatalog.app-mergeDebugResources-60:/layout/activity_detail.xml",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-mergeDebugResources-60:/layout/fragment_movie_list.xml",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/fragment_movie_list.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-mergeDebugResources-60:/layout/item_movie.xml",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-mergeDebugResources-60:/layout/activity_main.xml",
+        "source": "com.dicoding.moviecatalog.app-main-63:/layout/activity_main.xml"
+    }
+]

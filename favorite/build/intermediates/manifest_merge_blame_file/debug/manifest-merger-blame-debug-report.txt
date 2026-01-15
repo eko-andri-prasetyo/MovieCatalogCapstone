@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    featureSplit="favorite"
+4    package="com.dicoding.moviecatalog"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="21" />
+11
+12    <application
+12-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:3:5-7:19
+13        android:debuggable="true"
+14        android:extractNativeLibs="true"
+15        android:testOnly="true" >
+16        <activity
+16-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:4:9-6:40
+17            android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
+17-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:5:13-45
+18            android:exported="false"
+18-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:6:13-37
+19            android:splitName="favorite" />
+20    </application>
+21
+22</manifest>

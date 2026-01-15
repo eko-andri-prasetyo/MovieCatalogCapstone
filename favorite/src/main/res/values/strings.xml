@@ -1,0 +1,5 @@
+<resources>
+    <string name="favorite_title">Favorite</string>
+    <string name="empty_favorite">Belum ada film favorit.</string>
+    <string name="poster">Poster</string>
+</resources>

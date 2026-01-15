@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Catalog</string>
+    <string name="detail">Detail</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Cari judul film…</string>
+    <string name="poster">Poster</string>
+    <string name="backdrop">Backdrop</string>
+</resources>

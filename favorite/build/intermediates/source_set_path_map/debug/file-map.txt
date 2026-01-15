@@ -1,0 +1,7 @@
+com.dicoding.moviecatalog.favorite-pngs-0 D:\MovieCatalogCapstone\favorite\build\generated\res\pngs\debug
+com.dicoding.moviecatalog.favorite-resValues-1 D:\MovieCatalogCapstone\favorite\build\generated\res\resValues\debug
+com.dicoding.moviecatalog.favorite-packageDebugResources-2 D:\MovieCatalogCapstone\favorite\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.dicoding.moviecatalog.favorite-packageDebugResources-3 D:\MovieCatalogCapstone\favorite\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.dicoding.moviecatalog.favorite-merged_res-4 D:\MovieCatalogCapstone\favorite\build\intermediates\merged_res\debug
+com.dicoding.moviecatalog.favorite-debug-5 D:\MovieCatalogCapstone\favorite\src\debug\res
+com.dicoding.moviecatalog.favorite-main-6 D:\MovieCatalogCapstone\favorite\src\main\res
