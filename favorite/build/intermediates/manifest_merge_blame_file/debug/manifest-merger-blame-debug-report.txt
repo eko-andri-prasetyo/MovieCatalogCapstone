@@ -12,15 +12,14 @@
 12    <application
 12-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:3:5-7:19
 13        android:debuggable="true"
-14        android:extractNativeLibs="true"
-15        android:testOnly="true" >
-16        <activity
-16-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:4:9-6:40
-17            android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
-17-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:5:13-45
-18            android:exported="false"
-18-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:6:13-37
-19            android:splitName="favorite" />
-20    </application>
-21
-22</manifest>
+14        android:extractNativeLibs="true" >
+15        <activity
+15-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:4:9-6:40
+16            android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
+16-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:5:13-45
+17            android:exported="false"
+17-->D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:6:13-37
+18            android:splitName="favorite" />
+19    </application>
+20
+21</manifest>

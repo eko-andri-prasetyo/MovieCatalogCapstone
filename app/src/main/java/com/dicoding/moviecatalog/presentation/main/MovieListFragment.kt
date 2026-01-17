@@ -6,11 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.moviecatalog.databinding.FragmentMovieListBinding
 import com.dicoding.moviecatalog.presentation.common.UiState
 import com.dicoding.moviecatalog.presentation.detail.DetailActivity
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.collectLatest
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -47,25 +50,27 @@ class MovieListFragment : Fragment() {
     }
 
     private fun observe() {
-        viewLifecycleOwner.lifecycleScope.launchWhenStarted {
-            viewModel.uiState.collectLatest { state ->
-                when (state) {
-                    is UiState.Loading -> {
-                        binding.progressBar.visibility = View.VISIBLE
-                        binding.tvError.visibility = View.GONE
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
+                viewModel.uiState.collectLatest { state ->
+                    when (state) {
+                        is UiState.Loading -> {
+                            binding.progressBar.visibility = View.VISIBLE
+                            binding.tvError.visibility = View.GONE
+                        }
+                        is UiState.Success -> {
+                            binding.progressBar.visibility = View.GONE
+                            binding.tvError.visibility = View.GONE
+                            adapter.submitList(state.data)
+                        }
+                        is UiState.Error -> {
+                            binding.progressBar.visibility = View.GONE
+                            binding.tvError.visibility = View.VISIBLE
+                            binding.tvError.text = state.message
+                        }
                     }
-                    is UiState.Success -> {
-                        binding.progressBar.visibility = View.GONE
-                        binding.tvError.visibility = View.GONE
-                        adapter.submitList(state.data)
-                    }
-                    is UiState.Error -> {
-                        binding.progressBar.visibility = View.GONE
-                        binding.tvError.visibility = View.VISIBLE
-                        binding.tvError.text = state.message
-                    }
+                    binding.swipeRefresh.isRefreshing = false
                 }
-                binding.swipeRefresh.isRefreshing = false
             }
         }
     }

@@ -34,3 +34,5 @@ string poster
 string search
 string search_hint
 style Theme.MovieCatalog
+xml backup_rules
+xml data_extraction_rules

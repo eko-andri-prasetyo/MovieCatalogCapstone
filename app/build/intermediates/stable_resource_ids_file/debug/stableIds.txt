@@ -1,3 +1,4 @@
+com.dicoding.moviecatalog:xml/data_extraction_rules = 0x7f140001
 com.dicoding.moviecatalog:styleable/ViewBackgroundHelper = 0x7f1300a5
 com.dicoding.moviecatalog:styleable/Tooltip = 0x7f1300a0
 com.dicoding.moviecatalog:styleable/ThemeEnforcement = 0x7f13009e
@@ -3954,7 +3955,7 @@ com.dicoding.moviecatalog:attr/layoutManager = 0x7f03027d
 com.dicoding.moviecatalog:attr/tabIndicatorAnimationDuration = 0x7f030434
 com.dicoding.moviecatalog:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f120427
 com.dicoding.moviecatalog:attr/colorSurfaceContainerLow = 0x7f03012b
-com.dicoding.moviecatalog:xml/leak_canary_file_paths = 0x7f140000
+com.dicoding.moviecatalog:xml/leak_canary_file_paths = 0x7f140002
 com.dicoding.moviecatalog:attr/tabIconTint = 0x7f030431
 com.dicoding.moviecatalog:style/Widget.Material3.NavigationRailView = 0x7f1203b4
 com.dicoding.moviecatalog:interpolator/m3_sys_motion_easing_linear = 0x7f0a000a
@@ -4426,6 +4427,7 @@ com.dicoding.moviecatalog:style/Base.MaterialAlertDialog.MaterialComponents.Titl
 com.dicoding.moviecatalog:attr/actionBarSize = 0x7f030006
 com.dicoding.moviecatalog:dimen/m3_alert_dialog_action_top_padding = 0x7f0600ae
 com.dicoding.moviecatalog:color/m3_ref_palette_dynamic_neutral0 = 0x7f0500c7
+com.dicoding.moviecatalog:xml/backup_rules = 0x7f140000
 com.dicoding.moviecatalog:attr/materialCircleRadius = 0x7f0302fe
 com.dicoding.moviecatalog:attr/materialCardViewOutlinedStyle = 0x7f0302fc
 com.dicoding.moviecatalog:dimen/m3_chip_elevated_elevation = 0x7f060107

@@ -7516,4 +7516,6 @@ int[] styleable include { 0x7f030138 }
 int styleable include_constraintSet 0
 int[] styleable leak_canary_MoreDetailsView { 0x7f0302c3 }
 int styleable leak_canary_MoreDetailsView_leak_canary_plus_color 0
-int xml leak_canary_file_paths 0x7f140000
+int xml backup_rules 0x7f140000
+int xml data_extraction_rules 0x7f140001
+int xml leak_canary_file_paths 0x7f140002

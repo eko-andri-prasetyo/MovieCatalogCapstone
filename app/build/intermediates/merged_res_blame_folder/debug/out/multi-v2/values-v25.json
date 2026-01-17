@@ -4,7 +4,7 @@
             "outputFile": "com.dicoding.moviecatalog.app-mergeDebugResources-59:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nikop_ovs15cq\\.gradle\\caches\\transforms-3\\42349fcab7a5a6a21b6eefeb34a9888a\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\nikop_ovs15cq\\.gradle\\caches\\transforms-3\\b89e98d1aafa29e634900bd36b79b025\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

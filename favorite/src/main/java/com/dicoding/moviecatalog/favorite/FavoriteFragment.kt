@@ -6,12 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.moviecatalog.favorite.databinding.FragmentFavoriteBinding
 import com.dicoding.moviecatalog.favorite.presentation.FavoriteAdapter
 import com.dicoding.moviecatalog.favorite.presentation.FavoriteViewModel
 import com.dicoding.moviecatalog.presentation.detail.DetailActivity
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.collectLatest
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -40,10 +43,12 @@ class FavoriteFragment : Fragment() {
         binding.rvFavorite.layoutManager = LinearLayoutManager(requireContext())
         binding.rvFavorite.adapter = adapter
 
-        viewLifecycleOwner.lifecycleScope.launchWhenStarted {
-            viewModel.favorites.collectLatest { list ->
-                adapter.submitList(list)
-                binding.tvEmpty.visibility = if (list.isEmpty()) View.VISIBLE else View.GONE
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
+                viewModel.favorites.collectLatest { list ->
+                    adapter.submitList(list)
+                    binding.tvEmpty.visibility = if (list.isEmpty()) View.VISIBLE else View.GONE
+                }
             }
         }
     }
