@@ -11,7 +11,8 @@
 
     <application
         android:debuggable="true"
-        android:extractNativeLibs="true" >
+        android:extractNativeLibs="true"
+        android:testOnly="true" >
         <activity
             android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
             android:exported="false" />

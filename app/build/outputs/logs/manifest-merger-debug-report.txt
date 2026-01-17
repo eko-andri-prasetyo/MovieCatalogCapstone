@@ -89,7 +89,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nikop_ovs15cq\.g
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\baeda50ceed16334e2322d2788369a7a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\059027d77d93d45f5fc33d49653cfa4c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
-MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:2:1-20:12
 	package
 		INJECTED from D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -143,8 +143,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ni
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\0ab10b383de47bb46eee3d90bfced27b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
-MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:10:5-17:19
-MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:10:5-17:19
+MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:10:5-18:19
+MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:10:5-18:19
 	android:extractNativeLibs
 		INJECTED from D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml
 		REJECTED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:12:9-41
@@ -158,6 +158,8 @@ MERGED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\met
 		ADDED from D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:13:9-54
 	android:debuggable
 		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:11:9-34
+	android:testOnly
+		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:13:9-32
 	android:roundIcon
 		ADDED from D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
@@ -628,10 +630,10 @@ ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.g
 	android:name
 		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
 activity#com.dicoding.moviecatalog.favorite.FavoriteActivity
-ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:13:9-16:44
+ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:14:9-17:44
 	android:exported
-		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:15:13-37
+		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:16:13-37
 	android:splitName
-		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:16:13-41
+		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:17:13-41
 	android:name
-		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:14:13-79
+		ADDED from [:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:15:13-79
