@@ -1,4 +1,4 @@
-#Sat Jan 17 13:27:40 WIB 2026
+#Sat Jan 17 13:43:07 WIB 2026
 base.0=D\:\\MovieCatalogCapstone\\favorite\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.1=D\:\\MovieCatalogCapstone\\favorite\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 base.2=D\:\\MovieCatalogCapstone\\favorite\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex

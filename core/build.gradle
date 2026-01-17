@@ -56,4 +56,9 @@ dependencies {
     // Koin
     implementation "io.insert-koin:koin-core:3.5.3"
     implementation "io.insert-koin:koin-android:3.5.3"
+
+    // Test dependencies
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation "org.mockito:mockito-core:5.8.0"
+    testImplementation "org.mockito:mockito-inline:5.2.0"
 }
