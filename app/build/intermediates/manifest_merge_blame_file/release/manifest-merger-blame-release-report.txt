@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dicoding.moviecatalog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.dicoding.moviecatalog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.dicoding.moviecatalog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:5:5-26:19
+20        android:name="com.dicoding.moviecatalog.MovieCatalogApp"
+20-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:6:9-40
+21        android:allowBackup="true"
+21-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.12.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\7b9e4df7753206a15acb9e9561d1013e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:14:9-65
+24        android:extractNativeLibs="true"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:13:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:8:9-43
+27        android:label="@string/app_name"
+27-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:9:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:10:9-54
+29        android:supportsRtl="true"
+29-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:11:9-35
+30        android:theme="@style/Theme.MovieCatalog" >
+30-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:12:9-50
+31        <activity
+31-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:15:9-17:40
+32            android:name="com.dicoding.moviecatalog.presentation.detail.DetailActivity"
+32-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:16:13-63
+33            android:exported="false" />
+33-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:17:13-37
+34        <activity
+34-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:18:9-25:20
+35            android:name="com.dicoding.moviecatalog.presentation.main.MainActivity"
+35-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:19:13-59
+36            android:exported="true" >
+36-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:21:13-24:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:22:17-69
+38-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:23:17-77
+40-->D:\MovieCatalogCapstone\app\src\main\AndroidManifest.xml:23:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.dicoding.moviecatalog.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\81154e57e9e72faebf53069404691a1f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\3817e0cf5fecb3882d8a20cfd4a0b874\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\3817e0cf5fecb3882d8a20cfd4a0b874\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\3817e0cf5fecb3882d8a20cfd4a0b874\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+56                android:value="androidx.startup" />
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+57        </provider>
+58
+59        <meta-data
+59-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\e00fcaa7a5b49a0732be71e2285028e8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+60            android:name="com.google.android.gms.version"
+60-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\e00fcaa7a5b49a0732be71e2285028e8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+61            android:value="@integer/google_play_services_version" />
+61-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\e00fcaa7a5b49a0732be71e2285028e8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\39f987078943cb6ee54acf2584552eff\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+69
+70        <service
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\6d5608a7f84b5df7673321336ec9d200\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+71            android:name="androidx.room.MultiInstanceInvalidationService"
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\6d5608a7f84b5df7673321336ec9d200\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+72            android:directBootAware="true"
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\6d5608a7f84b5df7673321336ec9d200\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\6d5608a7f84b5df7673321336ec9d200\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\a9ed2558662276548dde2a526a1dbfa7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+94        <activity
+94-->[com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+95            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+95-->[com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+96            android:exported="false"
+96-->[com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+97            android:stateNotNeeded="true"
+97-->[com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+98            android:theme="@style/Theme.PlayCore.Transparent" />
+98-->[com.google.android.play:core-common:2.0.3] C:\Users\nikop_ovs15cq\.gradle\caches\transforms-3\60d8e1cb426296851618d4c5b4d1445f\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+99        <activity
+99-->[:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\release\AndroidManifest.xml:11:9-14:44
+100            android:name="com.dicoding.moviecatalog.favorite.FavoriteActivity"
+100-->[:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\release\AndroidManifest.xml:12:13-79
+101            android:exported="false"
+101-->[:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\release\AndroidManifest.xml:13:13-37
+102            android:splitName="favorite" />
+102-->[:favorite] D:\MovieCatalogCapstone\favorite\build\intermediates\metadata_feature_manifest\release\AndroidManifest.xml:14:13-41
+103    </application>
+104
+105</manifest>

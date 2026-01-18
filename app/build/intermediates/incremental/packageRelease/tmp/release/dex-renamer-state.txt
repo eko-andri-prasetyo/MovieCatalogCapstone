@@ -1,0 +1,4 @@
+#Sun Jan 18 09:20:35 WIB 2026
+base.0=D\:\\MovieCatalogCapstone\\app\\build\\intermediates\\base_dex\\release\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

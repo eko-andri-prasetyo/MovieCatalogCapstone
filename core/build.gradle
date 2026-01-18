@@ -16,8 +16,9 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Let the application module handle shrinking/obfuscation.
+            // Shrinking a library module here can break SQLCipher JNI expectations.
+            minifyEnabled false
         }
     }
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalog</string>
+    <string name="backdrop">Backdrop</string>
+    <string name="detail">Detail</string>
+    <string name="favorite">Favorite</string>
+    <string name="poster">Poster</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Cari judul film…</string>
+    <style name="Theme.MovieCatalog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

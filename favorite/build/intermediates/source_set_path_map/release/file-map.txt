@@ -1,0 +1,7 @@
+com.dicoding.moviecatalog.favorite-pngs-0 D:\MovieCatalogCapstone\favorite\build\generated\res\pngs\release
+com.dicoding.moviecatalog.favorite-resValues-1 D:\MovieCatalogCapstone\favorite\build\generated\res\resValues\release
+com.dicoding.moviecatalog.favorite-packageReleaseResources-2 D:\MovieCatalogCapstone\favorite\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.dicoding.moviecatalog.favorite-packageReleaseResources-3 D:\MovieCatalogCapstone\favorite\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.dicoding.moviecatalog.favorite-merged_res-4 D:\MovieCatalogCapstone\favorite\build\intermediates\merged_res\release
+com.dicoding.moviecatalog.favorite-main-5 D:\MovieCatalogCapstone\favorite\src\main\res
+com.dicoding.moviecatalog.favorite-release-6 D:\MovieCatalogCapstone\favorite\src\release\res

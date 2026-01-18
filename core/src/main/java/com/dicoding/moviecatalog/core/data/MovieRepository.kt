@@ -24,7 +24,9 @@ class MovieRepository(
                 .first()
             emit(Resource.Success(movies))
         } catch (e: Exception) {
-            emit(Resource.Error(e.message ?: "Network error"))
+            // Jangan tampilkan pesan exception mentah ke UI.
+            // (Error detail bisa dilihat di Logcat bila diperlukan.)
+            emit(Resource.Error("Gagal memuat daftar film. Periksa koneksi lalu coba lagi."))
         }
     }.flowOn(Dispatchers.IO)
 
@@ -39,7 +41,7 @@ class MovieRepository(
             val isFav = local.isFavorite(movieId).first()
             emit(Resource.Success(detail to isFav))
         } catch (e: Exception) {
-            emit(Resource.Error(e.message ?: "Network error"))
+            emit(Resource.Error("Gagal memuat detail film. Periksa koneksi lalu coba lagi."))
         }
     }.flowOn(Dispatchers.IO)
 

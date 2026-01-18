@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+id container
+id ivPoster
+id rvFavorite
+id toolbar
+id tvEmpty
+id tvMeta
+id tvTitle
+layout activity_favorite
+layout fragment_favorite
+layout item_favorite
+string empty_favorite
+string favorite_title
+string poster

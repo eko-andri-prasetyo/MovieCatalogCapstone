@@ -1,0 +1,33 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:1:1-9:12
+	package
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:3:5-7:19
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:3:5-7:19
+	android:extractNativeLibs
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+activity#com.dicoding.moviecatalog.favorite.FavoriteActivity
+ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:4:9-6:40
+	android:exported
+		ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:6:13-37
+	android:name
+		ADDED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml:5:13-45
+uses-sdk
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MovieCatalogCapstone\favorite\src\main\AndroidManifest.xml

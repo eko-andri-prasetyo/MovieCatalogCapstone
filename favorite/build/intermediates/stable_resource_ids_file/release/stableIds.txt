@@ -1,0 +1,13 @@
+com.dicoding.moviecatalog:string/poster = 0x7e030002
+com.dicoding.moviecatalog:id/ivPoster = 0x7e010001
+com.dicoding.moviecatalog:layout/item_favorite = 0x7e020002
+com.dicoding.moviecatalog:layout/fragment_favorite = 0x7e020001
+com.dicoding.moviecatalog:id/container = 0x7e010000
+com.dicoding.moviecatalog:id/tvTitle = 0x7e010006
+com.dicoding.moviecatalog:id/tvEmpty = 0x7e010004
+com.dicoding.moviecatalog:string/empty_favorite = 0x7e030000
+com.dicoding.moviecatalog:string/favorite_title = 0x7e030001
+com.dicoding.moviecatalog:id/rvFavorite = 0x7e010002
+com.dicoding.moviecatalog:id/tvMeta = 0x7e010005
+com.dicoding.moviecatalog:id/toolbar = 0x7e010003
+com.dicoding.moviecatalog:layout/activity_favorite = 0x7e020000

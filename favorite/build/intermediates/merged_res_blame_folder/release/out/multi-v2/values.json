@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dicoding.moviecatalog.favorite-mergeReleaseResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "D:\\MovieCatalogCapstone\\favorite\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,1,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "68,16,135",
+                        "endColumns": "66,51,41",
+                        "endOffsets": "130,63,172"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,122,174",
+                        "endColumns": "66,51,41",
+                        "endOffsets": "117,169,211"
+                    }
+                }
+            ]
+        }
+    ]
+}

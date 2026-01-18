@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dicoding.moviecatalog.core.domain.usecase.MovieInteractorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-18T02:21:05" hostname="EKOANDRI" time="1.097">
+  <properties/>
+  <testcase name="should get favorite movies from repository" classname="com.dicoding.moviecatalog.core.domain.usecase.MovieInteractorTest" time="1.097"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

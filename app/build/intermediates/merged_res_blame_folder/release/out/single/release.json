@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/layout_item_movie.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/layout_fragment_movie_list.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/layout/fragment_movie_list.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/menu_menu_main.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/navigation_nav_graph.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/layout_activity_detail.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.moviecatalog.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.dicoding.moviecatalog.app-main-58:/xml/data_extraction_rules.xml"
+    }
+]
